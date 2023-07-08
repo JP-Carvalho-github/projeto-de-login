@@ -75,4 +75,31 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 }
+.h1-centro{
+    width: 80px;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 5px;
+    
+    text-align: center;
 
+    border-radius: 4px;
+    padding: 1px 5px 1px 5px;
+
+    background-color: #E3AAA6;
+    color: white;
+}
+p{
+    text-align: center;
+
+}
+
+
+
+
+
+span{
+    background-color: #E3AAA6;
+    color: white;
+    padding: 5px;
+}
