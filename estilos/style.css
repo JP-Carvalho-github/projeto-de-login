@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*
+
+    Paleta de cores
+    rosa:
+    cor001- #E3AAA6
+    cor002- #FDC7B8
+    cor003- #FAC3D1
+
+    bege:
+    cor003- #E3AD94
+    cor004- #FAD3B0
+    cor005- #E3C394
+
+    vermelho vinho:
+    cor- #C63B37
+*/
+
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body, html{
+    background-color: #E3AAA6;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+
+main{
+    position: relative;
+    
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;
+    background-color: white;
+
+    width: 250px;
+    height: 500px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.490);
+    
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+section#login > div#imagem{
+    display: block;
+    background: #E3AAA6 url(../img/foto-pattern-login-1280x1920.jpg);
+    background-size: contain;
+    height: 200px;
+}
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+
