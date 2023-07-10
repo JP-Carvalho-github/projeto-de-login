@@ -46,7 +46,7 @@ main{
     height: 100vh;
     width: 100vw;
 }
-section#login{
+section#nova-senha{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,8 +54,8 @@ section#login{
     overflow: hidden;
     background-color: white;
 
-    width: 250px;
-    height: 800px;
+    width: 310px;
+    height: 530px;
 
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.490);
@@ -64,18 +64,18 @@ section#login{
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
-section#login > div#imagem{
+section#nova-senha > div#imagem{
     display: block;
     background: #E3AAA6 url(../img/foto-pattern-login-1280x1920.jpg);
     background-size: contain;
     height: 200px;
 }
-section#login > div#formulario{
+section#nova-senha > div#formulario{
     display: block;
     padding: 10px;
 }
 .h1-centro{
-    width: 115px;
+    width: 290px;
     height: 35px;
     margin: auto;
     margin-bottom: 5px;
@@ -97,11 +97,6 @@ p{
 
 
 
-#person-icon{
-    background-color: #E3AAA6;
-    color: white;
-    border-radius: 5px;
-}
 #key-icon{
     background-color: #E3AAA6;
     color: white;
@@ -138,39 +133,9 @@ div.campo > input{
 div.campo > input:focus-within{
     background-color: rgb(245, 213, 213);
 }
-form > div.campo-marginbottom{
-    display: block;
-    background-color: #E3AAA6;
-    border: 2px solid #E3AAA6;
-    
-    margin: 10px 0px 30px 0px;
-    width: 100%;
-    height: 45px;
-
-    border-radius: 5px;
+form > div.campo > label{
+    display: none;
 }
-div.campo-marginbottom > span{
-    color: white;
-    font-size: 2em;
-    width: 40px;
-    padding: 5px;
-}
-div.campo-marginbottom > input{
-    background-color: #FFFFFF;
-    font-size: 1em;
-    width: calc(100% - 45px);
-    height: 100%;
-    border: none;
-    border-radius: 5px;
-
-    transform: translateY(-10px);
-}
-div.campo-marginbottom > input:focus-within{
-    background-color: rgb(245, 213, 213);
-}
-
-
-
 form > input[type=submit]{
     display: block;
     font-size: 1.1em;
@@ -186,9 +151,6 @@ form > input[type=submit]{
 }
 form > input[type=submit]:hover{
     background-color: #b87471;
-}
-form > div.campo > label{
-    display: none;
 }
 
 form > a.registro{

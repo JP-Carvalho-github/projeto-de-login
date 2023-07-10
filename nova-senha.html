@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova senha</title>
+    <link rel="stylesheet" href="estilos/style3.css">
+    <link rel="stylesheet" href="estilos/media-query3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+</head>
+<body>
+    <main>
+        <section id="nova-senha">
+            <div id="imagem">
+                <!-- Aqui está a imagem -->
+            </div>
+            <div id="formulario">
+                <div class="h1-centro">
+                    <h1>Registre sua nova senha</h1>
+                </div>
+                <p>Olá. Entendemos que esqueceu sua senha. Registre uma nova senha aqui.</p>
+                <form action="nova-senha.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined" id="key-icon">
+                            vpn_key
+                        </span>
+                        <input type="password" name="nova-senha" id="inova-senha" autocomplete="new-password" placeholder="nova senha" required minlength="8" maxlength="20">
+                        <label for="inova-senha">senha</label>
+                    </div>
+
+
+                    <div class="campo">
+                        <span class="material-symbols-outlined" id="key-icon">
+                            vpn_key
+                        </span>
+                        <input type="password" name="nova-senha" id="inova-senha" autocomplete="new-password" placeholder="confirme sua nova senha" required minlength="8" maxlength="20">
+                        <label for="inova-senha">confirmar-senha</label>
+                    </div>
+                    <input type="submit" value="Confirmar">
+
+                    <a href="index.html" class="botao-voltar">Voltar</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
